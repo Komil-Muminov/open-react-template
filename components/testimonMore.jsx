@@ -1,6 +1,6 @@
 import React from "react";
 
-const testimonMore = () => {
+export const testimonMore = () => {
 	return (
 		<>
 			<section className="testimonials-more-page" id="testimonMore">
@@ -46,5 +46,3 @@ const testimonMore = () => {
 		</>
 	);
 };
-
-export default testimonMore;

@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import TestimonialImage01 from "@/public/images/testimonial-01.jpg";
-
 export default function Testimonials() {
 	return (
 		<section>
@@ -22,7 +20,7 @@ export default function Testimonials() {
 					<div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
 						{/* 1st testimonial */}
 						<div
-							className="flex flex-col h-full p-6 bg-gray-800"
+							className="flex flex-col h-full p-6 bg-gray-800 rounded-lg"
 							data-aos="fade-up"
 						>
 							<div>
@@ -48,7 +46,6 @@ export default function Testimonials() {
 								quibusdam illum quia ratione repellat ipsum expedita!
 							</blockquote>
 							<div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-								-{" "}
 								<a
 									className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
 									href="#0"
@@ -60,7 +57,7 @@ export default function Testimonials() {
 
 						{/* 2nd testimonial */}
 						<div
-							className="flex flex-col h-full p-6 bg-gray-800"
+							className="flex flex-col h-full p-6 bg-gray-800 rounded-lg"
 							data-aos="fade-up"
 						>
 							<div>
@@ -98,7 +95,7 @@ export default function Testimonials() {
 
 						{/* 3rd testimonial */}
 						<div
-							className="flex flex-col h-full p-6 bg-gray-800"
+							className="flex flex-col h-full p-6 bg-gray-800 rounded-lg"
 							data-aos="fade-up"
 						>
 							<div>

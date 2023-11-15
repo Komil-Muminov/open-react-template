@@ -14,7 +14,7 @@ export const testimonMore = () => {
 								<div className="person-wrapper flex items-center  gap-3">
 									<Image
 										className="rounded-full"
-										src={TestimonialImage01}
+										src={TesTestimonialImage01}
 										width={48}
 										height={48}
 										alt="Testimonial 01"

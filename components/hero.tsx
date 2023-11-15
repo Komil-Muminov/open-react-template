@@ -1,4 +1,5 @@
- import VideoThumb from "@/public/images/hero-image-01.jpg";
+"use client";
+import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
 
 export default function Hero() {
